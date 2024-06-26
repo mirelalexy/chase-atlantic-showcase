@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    background-color: black;
+}
+#logo{
+    width: 30%;
+    margin-left: 37%;
+    margin-top: 10%;
+}
+#logogif{
+    width: 100%;
+}
+
+h3{
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+}
+p{
+    color: grey;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    margin-top: 0px;
+    font-size: 13px;
+}
+.covers{
+    width: 200px;
+    height: 200px;
+    border-radius:15px;
+}
+.album{
+display: inline-block;
+margin-right: 30px;
+}
+.album:hover{
+    background-color: rgb(52, 52, 52);
+    padding: 10px;
+    border-radius: 15px;
+}
+.row{
+    margin-left: 22%;
+}
