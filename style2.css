@@ -1,0 +1,73 @@
+body{
+    background-color: #121212;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#pfp{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+div>h1{
+    color: white;
+    font-family: "Kanit", sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.3rem;
+}
+div>h2{
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+}
+h3{
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+}
+p{
+    color: grey;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    margin-top: 0px;
+    font-size: 13px;
+}
+.covers{
+    width: 170px;
+    height: 170px;
+    border-radius:15px;
+}
+.album{
+    display: inline-block;
+    margin-right: 30px;
+    padding: 10px;
+}
+.album:hover{
+    background-color: rgb(52, 52, 52);
+    border-radius: 15px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.columns{
+    display: inline-block;
+}
+.info{
+    width: 400px;
+    height: 400px;
+    margin: 150px;
+}
+.discography{
+    width: 700px;
+    height: 200px;
+}
